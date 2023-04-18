@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-18T20:37:41+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Amr Reda</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/04/17/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-04-17T23:14:37+10:00</published><updated>2023-04-17T23:14:37+10:00</updated><id>http://localhost:4000/jekyll/update/2023/04/17/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/04/17/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Defining the Domain Model in Node.js</title><link href="http://localhost:4000/domain/driven/design/using/nodejs/2023/04/05/defining-domain-model-in-nodejs.html" rel="alternate" type="text/html" title="Defining the Domain Model in Node.js" /><published>2023-04-05T20:10:10+10:00</published><updated>2023-04-05T20:10:10+10:00</updated><id>http://localhost:4000/domain/driven/design/using/nodejs/2023/04/05/defining-domain-model-in-nodejs</id><content type="html" xml:base="http://localhost:4000/domain/driven/design/using/nodejs/2023/04/05/defining-domain-model-in-nodejs.html"><![CDATA[<p>To define the Domain Model in Node.js, we need to understand the key concepts of DDD. These concepts include:</p>
+
+<p>Entities: Objects that have an identity and are unique within the system. Examples of entities in an e-commerce system might include Customers, Products, and Orders.</p>
+
+<p>Value Objects: Objects that represent a concept, but do not have an identity of their own. Examples of value objects in an e-commerce system might include Money, Address, and Quantity.</p>
+
+<p>Aggregates: Clusters of related objects that are treated as a single unit of work. Aggregates are used to enforce consistency and invariants within the system. Examples of aggregates in an e-commerce system might include Carts, Orders, and Payments.</p>
+
+<p>Domain Services: Services that perform complex operations or coordinate interactions between entities and aggregates. Examples of domain services in an e-commerce system might include PaymentGateway and ShippingService.</p>
+
+<p>Here is an example of how we can define the Domain Model for an e-commerce system in Node.js:</p>]]></content><author><name></name></author><category term="domain" /><category term="driven" /><category term="design" /><category term="using" /><category term="nodejs" /><summary type="html"><![CDATA[To define the Domain Model in Node.js, we need to understand the key concepts of DDD. These concepts include:]]></summary></entry><entry><title type="html">Introduction to Domain Driven Design using Nodejs</title><link href="http://localhost:4000/domain/driven/design/using/nodejs/2023/04/02/introduction-to-ddd-using-nodejs.html" rel="alternate" type="text/html" title="Introduction to Domain Driven Design using Nodejs" /><published>2023-04-02T00:14:37+11:00</published><updated>2023-04-02T00:14:37+11:00</updated><id>http://localhost:4000/domain/driven/design/using/nodejs/2023/04/02/introduction-to-ddd-using-nodejs</id><content type="html" xml:base="http://localhost:4000/domain/driven/design/using/nodejs/2023/04/02/introduction-to-ddd-using-nodejs.html"><![CDATA[<p>Domain Driven Design (DDD) is an approach to software development that emphasizes the importance of the business domain. The goal of DDD is to create software that models the business domain explicitly, making it easier to understand and maintain over time.</p>
+
+<p>At the heart of DDD is the Domain Model, which is a representation of the business domain in code. The Domain Model consists of entities, value objects, aggregates, and domain services, which are used to model the key concepts and behaviors of the business domain.</p>
+
+<p>DDD also includes other concepts such as the Ubiquitous Language, which is a shared language between business and development teams, and the Application Services Layer, which is responsible for coordinating the behavior of the Domain Model.</p>
+
+<div class="language-typescript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Cart</span> <span class="p">{</span>
+  <span class="k">private</span> <span class="k">readonly</span> <span class="nx">id</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="k">private</span> <span class="k">readonly</span> <span class="nx">items</span><span class="p">:</span> <span class="nx">CartItem</span><span class="p">[];</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">id</span><span class="p">:</span> <span class="kr">string</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">id</span> <span class="o">=</span> <span class="nx">id</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">items</span> <span class="o">=</span> <span class="p">[];</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="nf">getId</span><span class="p">():</span> <span class="kr">string</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="nf">addItem</span><span class="p">(</span><span class="nx">item</span><span class="p">:</span> <span class="nx">CartItem</span><span class="p">):</span> <span class="k">void</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">existingItem</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nf">find</span><span class="p">((</span><span class="nx">i</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">i</span><span class="p">.</span><span class="nf">getProduct</span><span class="p">().</span><span class="nf">getId</span><span class="p">()</span> <span class="o">===</span> <span class="nx">item</span><span class="p">.</span><span class="nf">getProduct</span><span class="p">().</span><span class="nf">getId</span><span class="p">());</span>
+    <span class="nf">if </span><span class="p">(</span><span class="nx">existingItem</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">existingItem</span><span class="p">.</span><span class="nf">setQuantity</span><span class="p">(</span><span class="nx">existingItem</span><span class="p">.</span><span class="nf">getQuantity</span><span class="p">()</span> <span class="o">+</span> <span class="nx">item</span><span class="p">.</span><span class="nf">getQuantity</span><span class="p">());</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span><span class="nx">item</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="nf">removeItem</span><span class="p">(</span><span class="nx">productId</span><span class="p">:</span> <span class="kr">string</span><span class="p">):</span> <span class="k">void</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">index</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nf">findIndex</span><span class="p">((</span><span class="nx">i</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">i</span><span class="p">.</span><span class="nf">getProduct</span><span class="p">().</span><span class="nf">getId</span><span class="p">()</span> <span class="o">===</span> <span class="nx">productId</span><span class="p">);</span>
+    <span class="nf">if </span><span class="p">(</span><span class="nx">index</span> <span class="o">!==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">this</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nf">splice</span><span class="p">(</span><span class="nx">index</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="nf">getTotal</span><span class="p">():</span> <span class="nx">Money</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">total</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nf">reduce</span><span class="p">((</span><span class="nx">acc</span><span class="p">,</span> <span class="nx">item</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">acc</span><span class="p">.</span><span class="nf">add</span><span class="p">(</span><span class="nx">item</span><span class="p">.</span><span class="nf">getTotal</span><span class="p">()),</span> <span class="nx">Money</span><span class="p">.</span><span class="nx">ZERO</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">total</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">CartItem</span> <span class="p">{</span>
+  <span class="k">private</span> <span class="k">readonly</span> <span class="nx">product</span><span class="p">:</span> <span class="nx">Product</span><span class="p">;</span>
+  <span class="k">private</span> <span class="nx">quantity</span><span class="p">:</span> <span class="nx">Quantity</span><span class="p">;</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">product</span><span class="p">:</span> <span class="nx">Product</span><span class="p">,</span> <span class="nx">quantity</span><span class="p">:</span> <span class="nx">Quantity</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">product</span> <span class="o">=</span> <span class="nx">product</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">quantity</span> <span class="o">=</span> <span class="nx">quantity</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="nf">getProduct</span><span class="p">():</span> <span class="nx">Product</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">product</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="nf">getQuantity</span><span class="p">():</span> <span class="nx">Quantity</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">quantity</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="nf">setQuantity</span><span class="p">(</span><span class="nx">quantity</span><span class="p">:</span> <span class="nx">Quantity</span><span class="p">):</span> <span class="k">void</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">quantity</span> <span class="o">=</span> <span class="nx">quantity</span><span class="p">;</span>
+  <span class="p">}</span>
+
+  <span class="k">public</span> <span class="nf">getTotal</span><span class="p">():</span> <span class="nx">Money</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">product</span><span class="p">.</span><span class="nf">getPrice</span><span class="p">().</span><span class="nf">multiply</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">quantity</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">Product</span> <span class="p">{</span>
+  <span class="k">private</span> <span class="k">readonly</span> <span class="nx">id</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="k">private</span> <span class="k">readonly</span> <span class="nx">name</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="k">private</span> <span class="k">readonly</span> <span class="nx">description</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="k">private</span> <span class="k">readonly</span> <span class="nx">price</span><span class="p">:</span> <span class="nx">Money</span><span class="p">;</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">id</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">name</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">description</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">price</span><span class="p">:</span> <span class="nx">Money</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">id</span> <span class="o">=</span> <span class="nx">id</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">description</span> <span class="o">=</span> <span class="nx">description</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">price</span> <span class="o">=</span> <span class="nx">price</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">getId</span><span class="p">():</span> <span class="kr">string</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">getName</span><span class="p">():</span> <span class="kr">string</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">getDescription</span><span class="p">():</span> <span class="kr">string</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">description</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">getPrice</span><span class="p">():</span> <span class="nx">Money</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">price</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">Money</span> <span class="p">{</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="nx">amount</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="nx">currency</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+
+    <span class="k">public</span> <span class="k">static</span> <span class="k">readonly</span> <span class="nx">ZERO</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Money</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="dl">'</span><span class="s1">USD</span><span class="dl">'</span><span class="p">);</span>
+
+    <span class="nf">constructor</span><span class="p">(</span><span class="nx">amount</span><span class="p">:</span> <span class="kr">number</span><span class="p">,</span> <span class="nx">currency</span><span class="p">:</span> <span class="kr">string</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">amount</span> <span class="o">=</span> <span class="nx">amount</span><span class="p">;</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">currency</span> <span class="o">=</span> <span class="nx">currency</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">getAmount</span><span class="p">():</span> <span class="kr">number</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">amount</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">getCurrency</span><span class="p">():</span> <span class="kr">string</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">currency</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">add</span><span class="p">(</span><span class="nx">other</span><span class="p">:</span> <span class="nx">Money</span><span class="p">):</span> <span class="nx">Money</span> <span class="p">{</span>
+        <span class="nf">if </span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">currency</span> <span class="o">!==</span> <span class="nx">other</span><span class="p">.</span><span class="nx">currency</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">throw</span> <span class="k">new</span> <span class="nc">Error</span><span class="p">(</span><span class="dl">'</span><span class="s1">Cannot add money with different currencies</span><span class="dl">'</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="nc">Money</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">amount</span> <span class="o">+</span> <span class="nx">other</span><span class="p">.</span><span class="nx">amount</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">currency</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">multiply</span><span class="p">(</span><span class="nx">multiplier</span><span class="p">:</span> <span class="nx">Quantity</span><span class="p">):</span> <span class="nx">Money</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="nc">Money</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">amount</span> <span class="o">*</span> <span class="nx">multiplier</span><span class="p">.</span><span class="nf">getValue</span><span class="p">(),</span> <span class="k">this</span><span class="p">.</span><span class="nx">currency</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">Quantity</span> <span class="p">{</span>
+    <span class="k">private</span> <span class="k">readonly</span> <span class="nx">value</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+
+    <span class="nf">constructor</span><span class="p">(</span><span class="nx">value</span><span class="p">:</span> <span class="kr">number</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nf">if </span><span class="p">(</span><span class="nx">value</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">throw</span> <span class="k">new</span> <span class="nc">Error</span><span class="p">(</span><span class="dl">'</span><span class="s1">Quantity must be non-negative</span><span class="dl">'</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span> <span class="nx">value</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">public</span> <span class="nf">getValue</span><span class="p">():</span> <span class="kr">number</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>In this example, we have defined the entities Cart, CartItem, and Product, as well as the value objects Money and Quantity. We have also implemented some basic behavior for the Cart entity, including adding and removing items, and calculating the total price.</p>
+
+<p>Blog Post 3: The Application Services Layer in Node.js</p>
+
+<p>The Application Services Layer is responsible for coordinating the behavior of the Domain Model. It acts as a bridge between the presentation layer and the Domain Model, and is responsible for executing business logic in response to user input.</p>
+
+<p>To implement the Application Services Layer in Node.js, we can define a set of classes that encapsulate the behavior of the Domain Model. These classes are responsible for handling requests from the presentation layer, executing the necessary business logic, and returning the results.</p>
+
+<p>Here is an example of how we can implement the Application Services Layer for an e-commerce system in Node.js:</p>
+
+<!-- ```typescript -->
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript"><span class="kd">class</span> <span class="nc">AddItemToCartRequest</span> <span class="p">{</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">productId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">quantity</span><span class="p">:</span> <span class="kr">number</span><span class="p">;</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">productId</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">quantity</span><span class="p">:</span> <span class="kr">number</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">productId</span> <span class="o">=</span> <span class="nx">productId</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">quantity</span> <span class="o">=</span> <span class="nx">quantity</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">AddItemToCartResponse</span> <span class="p">{</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">cartId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">total</span><span class="p">:</span> <span class="nx">Money</span><span class="p">;</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">cartId</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">total</span><span class="p">:</span> <span class="nx">Money</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">cartId</span> <span class="o">=</span> <span class="nx">cartId</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">total</span> <span class="o">=</span> <span class="nx">total</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">RemoveItemFromCartRequest</span> <span class="p">{</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">productId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">productId</span><span class="p">:</span> <span class="kr">string</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">productId</span> <span class="o">=</span> <span class="nx">productId</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">RemoveItemFromCartResponse</span> <span class="p">{</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">cartId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">total</span><span class="p">:</span> <span class="nx">Money</span><span class="p">;</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">cartId</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">total</span><span class="p">:</span> <span class="nx">Money</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">cartId</span> <span class="o">=</span> <span class="nx">cartId</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">total</span> <span class="o">=</span> <span class="nx">total</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">GetCartRequest</span> <span class="p">{</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">cartId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">cartId</span><span class="p">:</span> <span class="kr">string</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">cartId</span> <span class="o">=</span> <span class="nx">cartId</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">GetCartResponse</span> <span class="p">{</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">cartId</span><span class="p">:</span> <span class="kr">string</span><span class="p">;</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">items</span><span class="p">:</span> <span class="nx">CartItem</span><span class="p">[];</span>
+  <span class="k">public</span> <span class="k">readonly</span> <span class="nx">total</span><span class="p">:</span> <span class="nx">Money</span><span class="p">;</span>
+
+  <span class="nf">constructor</span><span class="p">(</span><span class="nx">cartId</span><span class="p">:</span> <span class="kr">string</span><span class="p">,</span> <span class="nx">items</span><span class="p">:</span> <span class="nx">CartItem</span><span class="p">[],</span> <span class="nx">total</span><span class="p">:</span> <span class="nx">Money</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">cartId</span> <span class="o">=</span> <span class="nx">cartId</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">items</span> <span class="o">=</span> <span class="nx">items</span><span class="p">;</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">total</span> <span class="o">=</span> <span class="nx">total</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">CartService</span> <span class="p">{</span>
+  <span class="k">private</span> <span class="k">readonly</span> <span class="nx">repository</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">cartRepository</span><span class="p">.</span><span class="nf">getCartById</span><span class="p">(</span><span class="nx">query</span><span class="p">.</span><span class="nx">cartId</span><span class="p">);</span>
+<span class="k">return</span> <span class="k">new</span> <span class="nc">CartDto</span><span class="p">(</span><span class="nx">cart</span><span class="p">.</span><span class="nf">getId</span><span class="p">(),</span> <span class="nx">cart</span><span class="p">.</span><span class="nf">getItems</span><span class="p">(),</span> <span class="nx">cart</span><span class="p">.</span><span class="nf">getTotal</span><span class="p">());</span></code></pre></figure>
+
+<!-- ``` -->]]></content><author><name></name></author><category term="domain" /><category term="driven" /><category term="design" /><category term="using" /><category term="nodejs" /><summary type="html"><![CDATA[Domain Driven Design (DDD) is an approach to software development that emphasizes the importance of the business domain. The goal of DDD is to create software that models the business domain explicitly, making it easier to understand and maintain over time.]]></summary></entry></feed>
